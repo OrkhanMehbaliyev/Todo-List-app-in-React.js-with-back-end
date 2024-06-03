@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   // Set CORS headers
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://todo-list-app-in-react-js-with-back-end.vercel.app"
+    "https://todo-list-app-in-react-js.vercel.app/"
   );
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
