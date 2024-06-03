@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://todo-list-app-in-react-js-with-back-end.vercel.app";
 const TODO_ENDPOINT = "/todo";
 
 class ApiRequest {
