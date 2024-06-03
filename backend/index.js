@@ -10,7 +10,10 @@ const server = http.createServer((req, res) => {
     "Access-Control-Allow-Origin",
     "https://todo-list-app-in-react-js.vercel.app"
   );
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET, POST, PUT, PATCH, DELETE"
+  );
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
 
   // Handle preflight request
